@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+.awesome-lightbox__header {
+  display: none;
+}
+
+.awesome-lightbox__close {
+  display: none;
+}
+
+.awesome-lightbox__toolbar {
+  display: none;
+}

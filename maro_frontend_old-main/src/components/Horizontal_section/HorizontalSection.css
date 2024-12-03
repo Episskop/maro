@@ -1,0 +1,26 @@
+.sticky-parent {
+  height: 270vh;
+  /* height: 530vh; */
+}
+.sticky {
+  position: sticky;
+  overflow: hidden;
+  top: 10px;
+  height: 50vw;
+}
+.scroll_section {
+  position: absolute;
+  top: 9vw;
+  height: 38.8vw;
+  width: 530vh;
+  display: flex;
+  align-items: flex-end;
+}
+.portfolio-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 3vw;
+  letter-spacing: 0em;
+  text-align: left;
+}

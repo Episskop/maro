@@ -1,0 +1,42 @@
+.guarantees-section-mobile {
+  padding-top: 10vw;
+  padding-left: 4vw;
+  padding-bottom: 15vw;
+  background-color: #f6f4f4;
+}
+
+.guarantees-head-mobile {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 4vw;
+  text-align: left;
+  margin-top: 20vw;
+}
+
+.guarantees-text-container-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 88vw;
+}
+
+.guarantees-digit-mobile {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5vw;
+  font-weight: 400;
+  padding-right: 4vw;
+  line-height: 5vw;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.guarantees-text-mobile {
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  font-weight: 300;
+  line-height: 4vw;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0b0a09;
+}

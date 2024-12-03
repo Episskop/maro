@@ -1,0 +1,67 @@
+.faq-section-mobile {
+  padding-top: 10vw;
+  padding-left: 4vw;
+  padding-bottom: 15vw;
+  background-color: #f6f4f4;
+}
+
+.faq-item-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.faq-head-mobile {
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 12vw;
+  font-size: 5vw;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 1vw;
+}
+
+.faq-drop-menu-mobile {
+  margin-top: 1vw;
+}
+
+.faq-question-mobile {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4vw;
+  font-weight: 300;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 15vw;
+  position: relative;
+}
+
+.animated-arrow-to-up-mobile {
+  width: 14vw;
+  transition: transform 0.3s ease;
+  position: absolute;
+  justify-self: end;
+  top: 0;
+  left: 110%;
+}
+
+.faq-question-mobile .animated-arrow-to-up-mobile.rotate {
+  transform: rotate(-90deg);
+}
+
+.faq-answer-mobile {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  width: 86vw;
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  font-weight: 300;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.faq-item-mobile.open .faq-answer-mobile {
+  max-height: 1000px;
+}

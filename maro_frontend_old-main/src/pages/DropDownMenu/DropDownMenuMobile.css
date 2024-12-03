@@ -1,0 +1,131 @@
+.drop-down-menu-mobile::after {
+  content: '';
+  display: block;
+  height: 0.5px;
+  width: 100%;
+  background-color: black;
+  margin: 1vw 0;
+  box-sizing: border-box;
+}
+
+.drop-down-menu-mobile {
+  position: relative;
+  display: grid;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  padding: 4vw 1vw;
+}
+
+.drop-down-menu-title-mobile {
+  display: flex;
+}
+
+.drop-down-menu-title-mobile p {
+  display: inline-block;
+}
+
+.drop-down-menu-mobile p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 5vw;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-right: 2vw;
+  white-space: pre-line;
+  margin: 0;
+}
+
+.drop-down-menu-price-mobile {
+  padding-left: 7vw;
+  padding-top: 4vw;
+  padding-bottom: 3vw;
+}
+
+.drop-down-menu-mobile .animated-arrow-mobile {
+  position: absolute;
+  width: 12vw;
+  justify-self: end;
+  top: 1vw;
+  transition: transform 0.3s ease;
+}
+
+.drop-down-menu-mobile.open .animated-arrow-mobile {
+  transform: rotate(-90deg);
+}
+
+.dropdown-content-mobile {
+  overflow: hidden;
+  max-height: 0;
+  width: 90vw;
+  transition: max-height 0.6s ease;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  left: -4vw;
+}
+
+.dropdown-content-mobile ul li {
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 80vw;
+  padding-bottom: 4vw;
+}
+
+.dropdown-content-mobile li {
+  position: relative;
+}
+
+.dropdown-content-mobile ul {
+  list-style-type: none;
+  position: relative;
+}
+
+.dropdown-content-mobile li::before {
+  content: '';
+  position: absolute;
+  top: 23%;
+  left: -20px;
+  width: 4vw;
+  height: 4vw;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  transform: translate(0, -50%);
+}
+
+.lines-mobile {
+  content: '';
+  position: absolute;
+  top: 2vw;
+  left: 27px;
+  height: 87%;
+  width: 1px;
+  background-color: #c4c4c4;
+}
+
+.drop-down-menu-picture-1 {
+  order: 1;
+  width: 60vw;
+ align-self: center;
+  height: auto;
+  position: relative;
+  padding-bottom: 8vw;
+  padding-left: 4vw;
+}
+
+.drop-down-menu-picture-2 {
+  position: absolute;
+  width: 30vw;
+  height: auto;
+  bottom: 12%;
+  left: 65%;
+  z-index: 100;
+}
+.drop-down-menu-mobile.open + .dropdown-content-mobile {
+  max-height: 250vw;
+}

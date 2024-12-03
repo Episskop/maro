@@ -1,0 +1,86 @@
+.cooperation-section-mobile {
+  padding-top: 10vw;
+  padding-left: 4vw;
+  padding-bottom: 15vw;
+  background-color: #f6f4f4;
+}
+
+.cooperation-container-text-btn-mobile-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cooperation-container-text-mobile {
+  width: 90vw;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  font-weight: 300;
+  line-height: 4vw;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cooperation-head-mobile {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 8vw;
+  font-weight: 400;
+  line-height: 41px;
+  text-align: left;
+  margin-top: 20vw;
+}
+
+.button-container-cooperation-mobile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 55vw;
+  justify-content: space-between;
+  margin-left: 33vw;
+}
+
+.button-image-cooperation-mobile {
+  width: 8vw;
+}
+
+.button-container-cooperation-text-mobile {
+  font-family: 'Ubuntu', sans-serif;
+  padding-right: 1vw;
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 2vw;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.message {
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  font-weight: 300;
+  line-height: 1vw;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  padding-top: 1vw;
+}
+.popup-content-button-mobile {
+  position: absolute;
+  bottom: 2vw;
+  right: 2vw;
+  background-color: black;
+  color: white;
+  width: 93%;
+  padding: 3vw 2.5vw;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  font-weight: 400;
+  margin-bottom: 8vw;
+}
+
+.popup-content-button-mobile:hover {
+  background-color: #333;
+}
